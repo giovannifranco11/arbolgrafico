@@ -1,4 +1,4 @@
-package arbolgrafico;
+package arbolgrafico.vista;
 /**
  *
  * @author ploks

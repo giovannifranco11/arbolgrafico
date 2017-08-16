@@ -1,6 +1,7 @@
 
-package arbolgrafico;
+package arbolgrafico.controlador;
 
+import arbolgrafico.modelo.Arbol;
 import java.util.ArrayList;
 import javax.swing.JPanel;
 

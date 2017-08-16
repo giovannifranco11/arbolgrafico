@@ -1,6 +1,7 @@
 
-package arbolgrafico;
+package arbolgrafico.modelo;
 
+import arbolgrafico.vista.ArbolExpresionGrafico;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JPanel;

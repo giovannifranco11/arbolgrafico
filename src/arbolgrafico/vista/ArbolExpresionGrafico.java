@@ -1,11 +1,13 @@
 
-package arbolgrafico;
+package arbolgrafico.vista;
 
   /**
  *
  * @author ploks
  */
 
+import arbolgrafico.modelo.Nodo;
+import arbolgrafico.modelo.Arbol;
 import java.awt.*;
 import java.util.*;
 import javax.swing.*;

@@ -2,7 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package arbolgrafico;
+package arbolgrafico.controlador;
+
+import arbolgrafico.vista.Gui;
 
 /**
  *

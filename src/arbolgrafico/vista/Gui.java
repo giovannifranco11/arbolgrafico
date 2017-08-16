@@ -2,8 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package arbolgrafico;
+package arbolgrafico.vista;
 
+import arbolgrafico.controlador.SimuladorArbolBinario;
 import java.awt.BorderLayout;
 import java.awt.Image;
 import java.awt.Rectangle;
@@ -288,8 +289,8 @@ public class Gui extends javax.swing.JFrame {
             .addGap(0, 310, Short.MAX_VALUE)
         );
 
+        jDesktopPane1.add(jInternalFrame2);
         jInternalFrame2.setBounds(0, 0, 440, 340);
-        jDesktopPane1.add(jInternalFrame2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jPanel4.setOpaque(false);
 
@@ -410,7 +411,7 @@ public class Gui extends javax.swing.JFrame {
                 
                 complementos();
             }
-        } catch (Exception e) {
+        } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "No se pudo insertar el dato", "Intenta de nuevo...", 0);
 
         }
