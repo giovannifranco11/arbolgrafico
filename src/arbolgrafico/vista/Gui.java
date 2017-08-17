@@ -30,7 +30,7 @@ public class Gui extends javax.swing.JFrame {
         PanelFondo F = new PanelFondo();
         this.add(F, BorderLayout.CENTER);
         this.pack();
-        Image icon = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Imagenes/LogoMB.png"));
+        Image icon = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/imagenes/LogoMB.png"));
         setIconImage(icon);
 
     }

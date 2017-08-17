@@ -14,7 +14,7 @@ public class PanelFondo extends javax.swing.JPanel {
     public PanelFondo() {
         initComponents();
         this.setSize(933, 690);
-        this.ruta = "/Imagenes/fondo.jpg";
+        this.ruta = "/imagenes/fondo.jpg";
 
     }
 
